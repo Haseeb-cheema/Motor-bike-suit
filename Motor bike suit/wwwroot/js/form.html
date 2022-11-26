@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript validation form</title>
+</head>
+<body>
+    <form action="calculator.html" target="_blank">
+    <h1>Web Programming & design, Assignment 2</h1>
+    <br />
+    <h3>Form validation using Javascript</h3>
+    <strong>
+    <label for="FirstName" class="fn">First name:</label>
+</strong>
+<br />
+    <input type="text" pattern="[A-Za-z]{0,30}" name="FirstName" required>
+    <br>
+    <strong>
+        <label for="LastName">Last name:</label>
+    </strong>
+    <br />
+        <input type="text" pattern="[A-Za-z]{0,20}" name="LastName" required>
+        <strong>
+        <p>Classification:</p></strong>
+    <input type="radio" name="Classification" id="classification" value="Freshman">Freshman
+    <br>
+    <input type="radio" name="Classification" id="classification" value="Sophomore">Sophomore
+    <br>
+    <input type="radio" name="Classification" id="classification" value="Junior">Junior
+    <br>
+    <input type="radio" name="Classification" id="classification" value="Senior">Senior
+    <br>
+    <input type="radio" name="Classification" id="classification" value="Graduate">Graduate
+    <br>
+    <strong>
+        <p>Email:</p>
+    </strong>
+    <input type="email" pattern="[A-za-z0-9-]{0,20}@[a-z]{0,10}.com" name="email" id="email" required >
+    <br>
+    <label for="Phone">Phone:</label>
+    <br>
+    <input type="tel" name="Number" id="Number" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx">
+    <br>
+    <strong>
+        <p>You are best at:</p>
+    </strong>
+    <select>
+        <option value="none"></option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JAVASCRIPT">JAVASCRIPT</option>
+    </select>
+    <br>
+    <strong>
+        <p>Programming language you want to learn?</p>
+    </strong>
+        <input type="checkbox" name="Language">C
+        <br>
+        <input type="checkbox" name="Language">C++
+        <br>
+        <input type="checkbox" name="Language">JAVA
+        <br>
+    <input type="Submit" value="Submit" name="Submit">
+</form>
+</body>
+</html>

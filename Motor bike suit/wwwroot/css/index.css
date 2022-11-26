@@ -1,0 +1,46 @@
+#h2{
+  background-color: aqua;
+}
+#dt{
+    background-color: bisque;
+}
+#footer{
+    background-color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3px black solid;
+}
+.menu{
+    color: white;
+    background-color: aqua;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    overflow: hidden;
+    height: 50px;
+    border: 2px black dotted;
+  }
+  .menu a{
+    float: left;
+color: blueviolet;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+  }
+  .menu a:hover{
+    background-color: #ddd;
+color: black;
+border: 1px black solid;
+  }
+  
+  .button {
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
